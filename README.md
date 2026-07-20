@@ -55,8 +55,8 @@ I thrive at the intersection of **systems thinking, rigorous research, and pract
 
 ## 🚀 Featured Projects
 
-### LiDRA: IoT Authentication Framework
-**M.Tech Thesis · Jul 2025 – Jul 2026** · `C/C++` `Python` `ProVerif` `COOJA` `Raspberry Pi 4` `AA-PUF`
+### LiDRA: Lightweight Distributed Recovery-Enabled Authentication for Multihop IoT Networks
+**M.Tech Thesis · Jul 2025 – Jul 2026** · `C/C++` `Python` `ProVerif` `COOJA` `Raspberry Pi 4` `PUF`
 
 Designed and implemented the **first recovery-enabled mutual authentication framework** for multihop IoT networks, eliminating full protocol restarts upon failure.
 
@@ -297,7 +297,7 @@ I'm actively seeking **Software Engineering roles for 2026**. If my background r
 | 📱 **Phone** | +91 82991 93528 |
 | 💼 **LinkedIn** | [linkedin.com/in/abhishek-k-tiwari](https://linkedin.com/in/abhishek-k-tiwari) |
 | 💻 **GitHub** | [github.com/abhishektiwari2000](https://github.com/abhishektiwari2000) |
-| 🌐 **Portfolio** | [abhishektiwari.dev](https://abhishektiwari.dev) |
+| 🌐 **Portfolio** | [](Uploaded Soon) |
 
 </div>
 
