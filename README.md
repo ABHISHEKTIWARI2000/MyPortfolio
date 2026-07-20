@@ -297,7 +297,7 @@ I'm actively seeking **Software Engineering roles for 2026**. If my background r
 | 📱 **Phone** | +91 82991 93528 |
 | 💼 **LinkedIn** | [linkedin.com/in/abhishek-k-tiwari](https://linkedin.com/in/abhishek-k-tiwari) |
 | 💻 **GitHub** | [github.com/abhishektiwari2000](https://github.com/abhishektiwari2000) |
-| 🌐 **Portfolio** | [](Uploaded Soon) |
+| 🌐 **Portfolio** | Uploaded Soon |
 
 </div>
 
