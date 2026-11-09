@@ -4,6 +4,7 @@ import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { Education } from './components/Education';
 import { Experience } from './components/Experience';
+import { KRMangalam } from './components/KRMangalam';
 import { Research } from './components/Research';
 import { Projects } from './components/Projects';
 import { Publication } from './components/Publication';
@@ -46,6 +47,7 @@ function App() {
         <About />
         <Education />
         <Experience />
+        <KRMangalam />
         <Research />
         <Projects />
         <Publication />
