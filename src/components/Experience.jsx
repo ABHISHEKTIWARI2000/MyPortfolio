@@ -15,8 +15,8 @@ export function Experience() {
       <div className="container-wide">
         <SectionHeader
           eyebrow="Experience"
-          title="Teaching Assistant — IIT Guwahati"
-          description="Three courses, 80+ students impacted, and a bridge between theory and practice."
+          title="Teaching experience"
+          description="Teaching Assistant roles at IIT Guwahati and K.R. Mangalam University, bridging theory and practice."
         />
 
         <div ref={ref}>
@@ -43,14 +43,16 @@ export function Experience() {
                 </div>
                 <div className="flex flex-col items-start gap-2 sm:items-end">
                   <span className="chip">{exp.period}</span>
-                  <span className="inline-flex items-center gap-1.5 rounded-full bg-green-50 px-3 py-1 text-xs font-medium text-green-700 dark:bg-green-950/40 dark:text-green-400">
-                    <Award size={12} />
-                    {exp.impact} impacted
-                  </span>
+                  {exp.impact && (
+                    <span className="inline-flex items-center gap-1.5 rounded-full bg-green-50 px-3 py-1 text-xs font-medium text-green-700 dark:bg-green-950/40 dark:text-green-400">
+                      <Award size={12} />
+                      {exp.impact} impacted
+                    </span>
+                  )}
                 </div>
               </div>
 
-              {/* Courses */}
+              {exp.courses.length > 0 && (
               <div className="grid gap-4 py-6 md:grid-cols-3">
                 {exp.courses.map(course => (
                   <div
@@ -67,8 +69,9 @@ export function Experience() {
                   </div>
                 ))}
               </div>
+              )}
 
-              {/* Highlights */}
+              {exp.highlights.length > 0 && (
               <div className="border-t border-neutral-100 pt-6 dark:border-neutral-800">
                 <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-neutral-500">Key Contributions</h4>
                 <div className="grid gap-3 sm:grid-cols-2">
@@ -82,6 +85,7 @@ export function Experience() {
                   ))}
                 </div>
               </div>
+              )}
 
               {/* Tags */}
               <div className="mt-6 flex flex-wrap gap-2">

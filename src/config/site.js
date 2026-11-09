@@ -115,6 +115,16 @@ export const siteConfig = {
   experience: [
     {
       role: "Teaching Assistant",
+      organization: "K.R. Mangalam University",
+      period: "2026 – Present",
+      type: "Academic",
+      courses: [],
+      highlights: [],
+      impact: "",
+      tags: ["Teaching"],
+    },
+    {
+      role: "Teaching Assistant",
       organization: "Dept. of CSE, IIT Guwahati",
       period: "Jan 2024 – Jul 2026",
       type: "Academic",
